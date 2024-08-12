@@ -1,0 +1,15 @@
+%backgroundMainColor{
+	background-color:$mainColor;
+	color:$mainColorFont;
+	a{
+		color:$mainColorFont;
+		&:hover{
+			color:#000;
+		}
+	}
+}
+
+@mixin atributosImg($maxWidth:100%){
+	width: 100%;
+	max-width: $maxWidth;
+}
